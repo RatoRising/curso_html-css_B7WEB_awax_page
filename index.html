@@ -18,20 +18,34 @@
             <div class="logoimg">Logo</div>
          </div>
 
-         <nav class="c-nav">
-            <div class="c-nav__menu">
-               <li class="c-nav__item"><a class="c-nav__link c-nav__link--active" ref=".c-main">Home</a></li>
-               <li class="c-nav__item"><a class="c-nav__link" href="#c-aboutus" target="self">About us</a></li>
-               <li class="c-nav__item"><a class="c-nav__link" href="#c-services" target="self">Services</a></li>
-               <li class="c-nav__item"><a class="c-nav__link" href="#c-ourprojects" target="self">Our Projects</a></li>
-               <li class="c-nav__item"><a class="c-nav__link" href="#c-ourteam" target="self">Our Team</a></li>
-               <li class="c-nav__item"><a class="c-nav__link" href="#c-happyclients" target="self">Happy Clients</a>
-               </li>
-               <li class="c-nav__item"><a class="c-nav__link" href="#c-price" target="self">Price</a></li>
-               <li class="c-nav__item"><a class="c-nav__link" href="#c-somefacts" target="self">Some Facts</a></li>
-               <li class="c-nav__item"><a class="c-nav__link" href="#c-contactus" target="self">Contact Us</a></li>
-            </div>
-         </nav>
+         <div class="c-header__menuopenerarea">
+            <img class="c-header__menuopeneritem" src="assets/images/menu.png" alt="responsive menu image">
+         </div>
+
+         <div class="c-header__menu">
+            <nav class="c-nav">
+               <ul class="c-nav__list">
+                  <li class="c-nav__list-item"><a class="c-nav__list-link c-nav__list-link--active"
+                        ref=".c-main">Home</a></li>
+                  <li class="c-nav__list-item"><a class="c-nav__list-link" href="#c-aboutus" target="self">About us</a>
+                  </li>
+                  <li class="c-nav__list-item"><a class="c-nav__list-link" href="#c-services" target="self">Services</a>
+                  </li>
+                  <li class="c-nav__list-item"><a class="c-nav__list-link" href="#c-ourprojects" target="self">Our
+                        Projects</a></li>
+                  <li class="c-nav__list-item"><a class="c-nav__list-link" href="#c-ourteam" target="self">Our Team</a>
+                  </li>
+                  <li class="c-nav__list-item"><a class="c-nav__list-link" href="#c-happyclients" target="self">Happy
+                        Clients</a></li>
+                  <li class="c-nav__list-item"><a class="c-nav__list-link" href="#c-price" target="self">Price</a></li>
+                  <li class="c-nav__list-item"><a class="c-nav__list-link" href="#c-somefacts" target="self">Some
+                        Facts</a></li>
+                  <li class="c-nav__list-item"><a class="c-nav__list-link" href="#c-contactus" target="self">Contact
+                        Us</a></li>
+               </ul>
+            </nav>
+         </div>
+
       </div>
    </header>
 
@@ -42,7 +56,7 @@
 
             <h2>Call us: +00 0 1234 5678</h2>
 
-            <a class="c-slider__link" href="">Get in touch!</a>
+            <a class="c-slider__link btn--dourado" href="">Get in touch!</a>
          </div>
 
          <div class="c-slider__slide clearness">
@@ -50,7 +64,7 @@
 
             <h2>Call us: +00 0 1234 5678</h2>
 
-            <a class="c-slider__link" href="">Get in touch!</a>
+            <a class="c-slider__link btn--dourado" href="">Get in touch!</a>
          </div>
 
          <div class="c-slider__slide ">
@@ -58,7 +72,7 @@
 
             <h2>Call us: +00 0 1234 5678</h2>
 
-            <a class="c-slider__link" href="">Get in touch!</a>
+            <a class="c-slider__link btn--dourado" href="">Get in touch!</a>
          </div>
       </div>
 
@@ -79,7 +93,7 @@
                consequatur rerum.
             </p>
 
-            <a class="c-aboutus__link" href="#">learn more</a>
+            <a class="c-aboutus__link btn--dourado" href="#">learn more</a>
          </div>
          <div class="c-aboutus__videobox">
             <img src="media/foto9.jpg" alt="">
@@ -122,13 +136,15 @@
       <h1>our projetcs</h1>
       <h2>what we create</h2>
       <div class="c-ourprojects__innerblock">
-         <div class="c-ourproject__nav c-nav">
-            <li class="c-nav__item"><a href="#" class="c-nav__link">All</a></li>
-            <li class="c-nav__item"><a href="#" class="c-nav__link">Photos</a></li>
-            <li class="c-nav__item"><a href="#" class="c-nav__link">Branding</a></li>
-            <li class="c-nav__item"><a href="#" class="c-nav__link">Adverts</a></li>
-            <li class="c-nav__item"><a href="#" class="c-nav__link">development</a></li>
-            <li class="c-nav__item"><a href="#" class="c-nav__link">misc</a></li>
+         <div class="c-ourproject__filtermenu c-filtermenu">
+            <ul>
+               <li class="c-filtermenu__item"><a href="#" class="c-filtermenu__link">All</a></li>
+               <li class="c-filtermenu__item"><a href="#" class="c-filtermenu__link">Photos</a></li>
+               <li class="c-filtermenu__item"><a href="#" class="c-filtermenu__link">Branding</a></li>
+               <li class="c-filtermenu__item"><a href="#" class="c-filtermenu__link">Adverts</a></li>
+               <li class="c-filtermenu__item"><a href="#" class="c-filtermenu__link">development</a></li>
+               <li class="c-filtermenu__item"><a href="#" class="c-filtermenu__link">misc</a></li>
+            </ul>
          </div>
 
          <div class="c-ourprojects__photoblock c_photoblock">
@@ -254,7 +270,7 @@
          </div>
 
          <div>
-            <a href="#" class="c-ourprojects__link">more Projects</a>
+            <a href="#" class="c-ourprojects__link btn--dourado">more Projects</a>
          </div>
       </div>
    </section>
@@ -352,7 +368,7 @@
 
          <div class="c-happyclients__slider c-slider">
             <div class="c-slider__slide">
-               <img src="media/homem2.png" alt="">
+               <img src="media/homem2.png" alt="man image">
                <h3 class="name">John Doe</h3>
                <h4 class="company-position">Head of PR Department</h4>
                <img src="assets/images/quote.png" alt="quote img">
@@ -362,7 +378,7 @@
             </div>
 
             <div class="c-slider__slide">
-               <img src="media/homem2.png" alt="">
+               <img src="media/homem2.png" alt="man image">
                <h3 class="name">John Doe II</h3>
                <h4 class="company-position">The Twin to Doe</h4>
                <img src="assets/images/quote.png" alt="quote img">
@@ -373,13 +389,12 @@
          </div>
       </div>
       <div class="c-happyclients c-sliderdots">
-         <div class="c-sliderdots__dots c-sliderdots__dots--active dotcommunication"></div>
-         <div class="c-sliderdots__dots dotclearness"></div>
-         <div class="c-sliderdots__dots dotmeaning"></div>
+         <div class="c-sliderdots__dots c-sliderdots__dots--active"></div>
+         <div class="c-sliderdots__dots"></div>
       </div>
    </section>
 
-   <section id="c-clietnslogo" class="c-clietnslogo default-block-white">
+   <section id="c-clientslogo" class="c-clientslogo">
       <div class="c-clientslogo__innerblock default-block">
          <img src="media/empresa1.png" alt="logo cliente 1">
          <img src="media/empresa2.png" alt="logo cliente 2">
@@ -407,7 +422,7 @@
             <p class="c-price__services">Time tracking</p>
             <div class="c-price__dash"></div>
             <p class="c-price__services">Custom views</p>
-            <a class="c-price__expresslink" href="#" target="_blank">Choose</a>
+            <a class="c-price__link btn--grey" href="#" target="_blank">Choose</a>
          </div>
 
          <div class="c-price__item">
@@ -423,7 +438,7 @@
             <p class="c-price__services">Time tracking</p>
             <div class="c-price__dash"></div>
             <p class="c-price__services">Custom views</p>
-            <a class="c-price__expresslink" href="#" target="_blank">Choose</a>
+            <a class="c-price__link btn--grey" href="#" target="_blank">Choose</a>
          </div>
 
          <div class="c-price__item">
@@ -439,7 +454,7 @@
             <p class="c-price__services">Time tracking</p>
             <div class="c-price__dash"></div>
             <p class="c-price__services">Custom views</p>
-            <a class="c-price__expresslink" href="#" target="_blank">Choose</a>
+            <a class="c-price__link btn--grey" href="#" target="_blank">Choose</a>
          </div>
 
          <div class="c-price__item">
@@ -455,91 +470,141 @@
             <p class="c-price__services">Time tracking</p>
             <div class="c-price__dash"></div>
             <p class="c-price__services">Custom views</p>
-            <a class="c-price__expresslink" href="#" target="_blank">Choose</a>
+            <a class="c-price__link btn--grey" href="#" target="_blank">Choose</a>
          </div>
 
       </div>
    </section>
 
-   <section id="c-categories" class="c-categories default-block-white">
-      <div class="c-categories__innerblock">
+   <section id="c-categories" class="c-categories">
 
-         <div class="c-categories__slider c-slider">
+      <div class="c-categories__slider c-slider">
 
-            <div class="c-slider__slide default-block">
-               <div class="c-categories c-slider__slidetitle">
-                  <h1>premium</h1>
-                  <h2>even more features available</h2>
+         <div class="c-slider__slide default-block">
+
+            <div class="c-slider__slidetitle">
+               <h1>Express</h1>
+               <h2>even more features available</h2>
+            </div>
+
+            <div class="c-slider__slidecontent">
+               <div class="c-slider__slide-imgarea">
+                  <img class="c-slider__slide-livros" src="media/livros.png" alt="books image">
                </div>
-               <div class="c-categories c-slider__slidecontent">
-                  <img src="media/livros.png" alt="imagem livros">
-                  <div class="c-categories c-slidetextbox">
-                     <h3 class="c-slidetextbox__title">First Feature</h3>
-                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, suscipit nihil id sed
-                        asperiores deserunt enim.</p>
-                     <p>- Feature One</p>
-                     <p>- Feature Two</p>
-                     <p>- Feature Three</p>
-                     <h3 class="c-slidetextbox__title">Second Feature</h3>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                     <h3 class="c-slidetextbox__title">Third Feature</h3>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                  </div>
+
+               <div class="c-slidetextbox">
+                  <h3 class="c-slidetextbox__title">First Feature</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, suscipit nihil id sed
+                     asperiores deserunt enim.</p>
+                  <p>- Feature One</p>
+                  <p>- Feature Two</p>
+                  <p>- Feature Three</p>
+
+                  <h3 class="c-slidetextbox__title">Second Feature</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                  <h3 class="c-slidetextbox__title">Third Feature</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                </div>
             </div>
 
-            <div class="c-slider__slide default-block">
-               <div class="c-categories c-slider__slidetitle">
-                  <h1>premium</h1>
-                  <h2>even more features available</h2>
-               </div>
-               <div class="c-categories c-slider__slidecontent">
-                  <img src="media/livros.png" alt="imagem livros">
-                  <div class="c-categories c-slidetextbox">
-                     <h3 class="c-slidetextbox__title">First Feature</h3>
-                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, suscipit nihil id sed
-                        asperiores deserunt enim.</p>
-                     <p>- Feature One</p>
-                     <p>- Feature Two</p>
-                     <p>- Feature Three</p>
-                     <h3 class="c-slidetextbox__title">Second Feature</h3>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                     <h3 class="c-slidetextbox__title">Third Feature</h3>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                  </div>
-               </div>
+         </div>
+
+         <div class="c-slider__slide default-block">
+            <div class="c-slider__slidetitle">
+               <h1>Standard</h1>
+               <h2>even more features available</h2>
             </div>
 
-            <div class="c-slider__slide default-block">
-               <div class="c-categories c-slider__slidetitle">
-                  <h1>premium</h1>
-                  <h2>even more features available</h2>
+            <div class="c-slider__slidecontent">
+               <div class="c-slider__slide-imgarea">
+                  <img class="c-slider__slide-livros" src="media/livros.png" alt="books image">
                </div>
-               <div class="c-categories c-slider__slidecontent">
-                  <img src="media/livros.png" alt="imagem livros">
-                  <div class="c-categories c-slidetextbox">
-                     <h3 class="c-slidetextbox__title">First Feature</h3>
-                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, suscipit nihil id sed
-                        asperiores deserunt enim.</p>
-                     <p>- Feature One</p>
-                     <p>- Feature Two</p>
-                     <p>- Feature Three</p>
-                     <h3 class="c-slidetextbox__title">Second Feature</h3>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                     <h3 class="c-slidetextbox__title">Third Feature</h3>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                  </div>
+
+               <div class="c-slidetextbox">
+                  <h3 class="c-slidetextbox__title">First Feature</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, suscipit nihil id sed
+                     asperiores deserunt enim.</p>
+                  <p>- Feature One</p>
+                  <p>- Feature Two</p>
+                  <p>- Feature Three</p>
+
+                  <h3 class="c-slidetextbox__title">Second Feature</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                  <h3 class="c-slidetextbox__title">Third Feature</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                </div>
             </div>
          </div>
 
-         <div class="c-categories__sliderdots c-sliderdots">
-            <div class="c-sliderdots__dots c-sliderdots__dots--active dotcommunication"></div>
-            <div class="c-sliderdots__dots dotclearness"></div>
-            <div class="c-sliderdots__dots dotmeaning"></div>
+         <div class="c-slider__slide default-block">
+            <div class="c-slider__slidetitle">
+               <h1>Luxe</h1>
+               <h2>even more features available</h2>
+            </div>
+
+            <div class="c-slider__slidecontent">
+               <div class="c-slider__slide-imgarea">
+                  <img class="c-slider__slide-livros" src="media/livros.png" alt="books image">
+               </div>
+
+               <div class="c-slidetextbox">
+                  <h3 class="c-slidetextbox__title">First Feature</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, suscipit nihil id sed
+                     asperiores deserunt enim.</p>
+                  <p>- Feature One</p>
+                  <p>- Feature Two</p>
+                  <p>- Feature Three</p>
+
+                  <h3 class="c-slidetextbox__title">Second Feature</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                  <h3 class="c-slidetextbox__title">Third Feature</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+               </div>
+            </div>
          </div>
-         <a class="c-slider__link" href="#" target="_blank">Get in touch!</a>
+
+         <div class="c-slider__slide default-block">
+            <div class="c-slider__slidetitle">
+               <h1>Premium</h1>
+               <h2>even more features available</h2>
+            </div>
+
+            <div class="c-slider__slidecontent">
+               <div class="c-slider__slide-imgarea">
+                  <img class="c-slider__slide-livros" src="media/livros.png" alt="books image">
+               </div>
+
+               <div class="c-slidetextbox">
+                  <h3 class="c-slidetextbox__title">First Feature</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, suscipit nihil id sed
+                     asperiores deserunt enim.</p>
+                  <p>- Feature One</p>
+                  <p>- Feature Two</p>
+                  <p>- Feature Three</p>
+
+                  <h3 class="c-slidetextbox__title">Second Feature</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                  <h3 class="c-slidetextbox__title">Third Feature</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+               </div>
+            </div>
+         </div>
       </div>
+
+      <div class="c-categories__navarea">
+         <div class="c-categories__sliderdots c-sliderdots">
+            <div class="c-sliderdots__dots c-sliderdots__dots--active"></div>
+            <div class="c-sliderdots__dots"></div>
+            <div class="c-sliderdots__dots"></div>
+            <div class="c-sliderdots__dots"></div>
+         </div>
+         <a class="c-slider__link btn--dourado" href="#" target="_blank">Get in touch!</a>
+      </div>
+
    </section>
 
    <section id="c-somefacts" class="c-somefacts default-block-dark">
@@ -586,39 +651,55 @@
       </div>
    </section>
 
-
    <section class="c-map">
       <div class="c-map__innerblock default-block">
+
          <div class="c-map__locationtextarea">
             <div class="c-map__locationtextdetails">
-               <div class="c-map__imgdiv"><img class="c-map__icon" src="assets/images/carta.png" alt="icone carta"></div>
+               <div class="c-map__locationtextdetails-item">
+                  <img class="c-map__icon" src="assets/images/carta.png" alt="icone carta">
+               </div>
                <p>PO Box 16122 Collins Street West Victoria 8007 Australia</p>
             </div>
+
             <div class="c-map__locationtextdetails">
-               <div class="c-map__imgdiv"><img class="c-map__icon" src="assets/images/localizacao.png" alt="icone de localização"></div>
+               <div class="c-map__locationtextdetails-item">
+                  <img class="c-map__icon" src="assets/images/localizacao.png" alt="icone de localização">
+               </div>
                <p>121 King Street Melborne Victoria 3000 Australia</p>
             </div>
+
             <div class="c-map__locationtextdetails">
-               <div class="c-map__imgdiv"><img class="c-map__icon" src="assets/images/telefone.png" alt="icone telefone"></div>
+               <div class="c-map__locationtextdetails-item">
+                  <img class="c-map__icon" src="assets/images/telefone.png" alt="icone telefone">
+               </div>
                <p>+00 0 1234 5678</p>
             </div>
+
             <div class="c-map__locationtextdetails">
-               <div class="c-map__imgdiv"><img class="c-map__icon" src="assets/images/arroba.png" alt="icone e-mail"></div>
+               <div class="c-map__locationtextdetails-item">
+                  <img class="c-map__icon" src="assets/images/arroba.png" alt="icone e-mail">
+               </div>
                <p>bukingdesign@gmail.com</p>
             </div>
+
             <div class="c-map__locationtextdetails">
-               <div class="c-map__imgdiv"><img class="c-map__icon" src="assets/images/web.png" alt="icone web"></div>
+               <div class="c-map__locationtextdetails-item">
+                  <img class="c-map__icon" src="assets/images/web.png" alt="icone web">
+               </div>
                <p>www.envato.com</p>
             </div>
+
          </div>
-         
+
          <div class="c-map__locationimagearea">
-            <div class="c-map__imgdiv"><img class="c-map__map__locationimage-icon" src="assets/images/localizacao.png" alt="icone de localização"></div>
+            <div class="c-map__locationtextdetails-item">
+               <img class="c-map__map__locationimage-icon" src="assets/images/localizacao.png"
+                  alt="icone de localização">
+            </div>
          </div>
       </div>
    </section>
-
-
 
    <footer class="c-footer default-block-dark">
       <div class="c-foooter__innerblock">
@@ -652,7 +733,7 @@
 
          <div class="c-footer__newsletter">
             <input class="c-footer__subscribeinput" type="email" name="e-mail" placeholder="EMAIL TO SUBSCRIBE">
-            <a class="c-footer__link" href="#" target="_blank">SUBSCRIBE</a>
+            <a class="c-footer__link btn--dourado" href="#" target="_blank">SUBSCRIBE</a>
          </div>
 
       </div>
