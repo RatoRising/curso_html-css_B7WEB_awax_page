@@ -81,7 +81,7 @@ html {
    color: white;
    display: flex;
    font-size: .8rem;
-   font-weight: 700;
+   font-weight: 800;
    justify-content: center;
    margin-bottom: 40px;
    margin-top: 40px;
@@ -95,7 +95,6 @@ html {
    background-color: white;
    border: 1px solid var(--cordourada);
    color: var(--cordourada);
-   font-weight: 800;
    transition: .5s;
 }
 
@@ -1235,16 +1234,19 @@ body {
    border: none;
    border-bottom: 3px solid grey;
    color: grey;
-   line-height: 2rem;
+   font-size: 1rem;
+   line-height: 2.5rem;
    margin-bottom: 30px;
    min-width: 200px;
    outline: none;
    text-align: center;
 }
 
-.c-footer .c-footer__link {
-   margin: 20px;
+.c-footer .c-footer__btn {
+   margin: 10px;
 }
+
+
 
 @media (max-width: 750px) {
    .c-footer .c-foooter__innerblock {
