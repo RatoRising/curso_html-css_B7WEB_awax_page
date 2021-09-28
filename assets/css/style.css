@@ -441,7 +441,11 @@ body {
    font-size: .9rem;
 }
 
-
+@media (max-width: 1050px) {
+   .c-services .c-services__innerblock:nth-child(3) {
+      border-left: 0;
+   }
+}
 
 
 
